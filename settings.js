@@ -33,7 +33,7 @@ global.owner = [
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
 global.mods = []
-global.suittag = ['584120346669'] 
+global.suittag = ['584125014674'] 
 global.prems = []
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
@@ -51,21 +51,21 @@ global.yukiJadibts = true
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
-global.packname = '⪛✰ hinata-bot- ✰⪜'
-global.botname = 'hinata bot'
+global.packname = '★[ʜɪɴᴀᴛᴀ-ʙᴏᴛ]★'
+global.botname = '★[ʜɪɴᴀᴛᴀ-ʙᴏᴛ]★'
 global.wm = 'ৎ୭࠭͢𝐘𝐮𝐤𝐢_𝐒𝐮𝐨𝐮-𝐁𝐨𝐭ⷭ𓆪͟͞ '
-global.author = 'Made By Jhon𒆜'
-global.dev = '© ⍴᥆ᥕᥱrᥱძ ᑲᥡ Jhon𒆜'
-global.textbot = 'hinata bot • Powered By Jhon𒆜'
-global.etiqueta = 'Jhon'
+global.author = 'Made By ༒★Jhon★༒'
+global.dev = '© ⍴᥆ᥕᥱrᥱძ ᑲᥡ ༒★Jhon★༒'
+global.textbot = '★[ʜɪɴᴀᴛᴀ-ʙᴏᴛ]★ • Powered By ༒★Jhon★༒'
+global.etiqueta = '༒★Jhon★༒'
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
 global.moneda = '¥enes'
 global.welcom1 = '❍ Edita Con El Comando setwelcome'
 global.welcom2 = '❍ Edita Con El Comando setbye'
-global.banner = 'https://tinyurl.com/27d7rnhu'
-global.avatar = 'https://tinyurl.com/25ru293g'
+global.banner = 'https://ibb.co/SCSb241'
+global.avatar = 'https://ibb.co/4wkFDHSL'
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
@@ -76,10 +76,10 @@ global.photoSity = [catalogo]
 
 global.gp1 = 'https://chat.whatsapp.com/Ecz881bBgqPIWjDOaKkp7E'
 global.comunidad1 = 'https://chat.whatsapp.com/EwrwcGvpLf1BnMhP3B4axD'
-global.channel = 'https://whatsapp.com/channel/0029VapSIvR5EjxsD1B7hU3T'
-global.channel2 = 'https://whatsapp.com/channel/0029VavzewJLikg78gILRn1o'
+global.channel = 'https://whatsapp.com/channel/0029Vb8MqVzK5cDHC2ijGg0m'
+global.channel2 = 'https://whatsapp.com/channel/0029Vb7ZP3FICVfflZS9FZ1B'
 global.md = 'https://github.com/The-King-Destroy/Yuki_Suou-Bot'
-global.correo = 'thekingdestroy507@gmail.com'
+global.correo = 'hinatabot2025@gmail.com'
 global.cn ='https://whatsapp.com/channel/0029VapSIvR5EjxsD1B7hU3T';
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
