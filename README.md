@@ -1,6 +1,6 @@
 <h1 align="center">✦ Yυƙι-Sυσυ-Bσƚ ✦</h1>
 
- <img src= "https://files.catbox.moe/om9jai.jpg">
+ <img src= "https://ibb.co/4wkFDHSL">
     </p>
 
 ### **`❕️ Información importante`**
@@ -55,7 +55,7 @@ apt update && apt upgrade && pkg install -y git nodejs ffmpeg imagemagick yarn
 ```
 
 ```bash
-git clone https://github.com/The-King-Destroy/Yuki_Suou-Bot && cd Yuki_Suou-Bot
+git clone https://github.com/Eljhonwtf/jg.git
 ```
 
 ```bash
@@ -97,7 +97,7 @@ npm start
 > Si después de instalar el bot en Termux y iniciar la session del bot (deseas poner tu número es la lista de owner pon este comando:
 
    ```bash
-    cd Yuki_Suou-Bot && nano settings.js
+    cd ★[ʜɪɴᴀᴛᴀ-ʙᴏᴛ]★ && nano settings.js
    ```
 
 </details>
@@ -108,16 +108,16 @@ npm start
 <details>
  <summary><b> 🍭 Grupos Oficiales </b></summary>
 
- * Canal Oficial  [`¡Click aquí!`](https://whatsapp.com/channel/0029VapSIvR5EjxsD1B7hU3T)
-* Grupo Oficial [`¡Click aquí!`](https://chat.whatsapp.com/Ecz881bBgqPIWjDOaKkp7E)
-* Comunidad Oficial [`¡Click aquí!`](https://chat.whatsapp.com/EwrwcGvpLf1BnMhP3B4axD)
+ * Canal Oficial  [`¡Click aquí!`](https://whatsapp.com/channel/0029Vb7ZP3FICVfflZS9FZ1B)
+* Grupo Oficial [`¡Click aquí!`](https://chat.whatsapp.com/FyzFuZG1ZGt57ERLbqMAjD)
+* Comunidad Oficial [`¡Click aquí!`](https://whatsapp.com/channel/0029Vb8MqVzK5cDHC2ijGg0m)
 </details>
 
 <details>
 <summary><b> 💭 Contáctos</b></summary>
 
-* WhatsApp: [`Aquí`](https:/Wa.me/584120346669)
-* Correo: [`Aquí`](thekingdestroy507@gmail.com)
+* WhatsApp: [`Aquí`](https:/Wa.me/584125014674)
+* Correo: [`Aquí`](hinatabot2025@gmail.com)
 
 </details>
 
@@ -133,7 +133,7 @@ href="https://dash.skyultraplus.com/home"><img src="https://qu.ax/zFzXF.png" hei
 
 * Dashboard  [`Dash`](https://dash.skyultraplus.com)
 * Panel [`Panel`](https://panel.skyultraplus.com)
-* Canal de WhatsApp [`Canal Sky`](https://whatsapp.com/channel/0029VakUvreFHWpyWUr4Jr0g)
+* Canal de WhatsApp [`Canal Sky`](https://whatsapp.com/channel/0029Vb8MqVzK5cDHC2ijGg0m)
 * Comunidad  [`Aquí`](https://chat.whatsapp.com/JPwcXvPEUwlEOyjI3BpYys)
 * Contacto(s) [`Gata Dios`](https://wa.me/message/B3KTM5XN2JMRD1) / [`Russell`](https://api.whatsapp.com/send/?phone=15167096032&text&type=phone_number&app_absent=0) / [`elrebelde21`](https://facebook.com/elrebelde21)
 * Discord [`SkyUltraPlus`](https://discord.gg/Ph4eWsZ8)
@@ -193,13 +193,13 @@ href="https://dahs.hostingpy.shop/home"><img src="https://files.catbox.moe/lr92z
 ---
 
 ### **`🌟 Colaboradores`**
-<a href="https://github.com/The-King-Destroy/Yuki_Suou-Bot/graphs/contributors">
-<img src="https://contrib.rocks/image?repo=The-King-Destroy/Yuki_Suou-Bot" /> 
+<a href="">
+<img src="" /> 
 </a>
 
 ### **`👑 Propietario`**
 <a
-href="https://github.com/The-King-Destroy"><img src="https://github.com/The-King-Destroy.png" width="130" height="130" alt="
+href="https://github.com/Eljhonwtf/jg.git"><img src="https://github.com/The-King-Destroy.png" width="130" height="130" alt="
 ⁱᵃᵐ|𝔇ĕ𝐬†𝓻⊙γ𒆜"/></a>
 
 ### **`🪐 Créditos`**
