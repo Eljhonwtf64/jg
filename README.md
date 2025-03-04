@@ -1,4 +1,4 @@
-<h1 align="center">✦ Yυƙι-Sυσυ-Bσƚ ✦</h1>
+<h1 align="center">✦ [ʜɪɴᴀᴛᴀ-ʙᴏᴛ] ✦</h1>
 
  <img src= "https://ibb.co/4wkFDHSL">
     </p>
