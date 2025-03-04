@@ -74,13 +74,13 @@ global.photoSity = [catalogo]
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
-global.gp1 = 'https://chat.whatsapp.com/Ecz881bBgqPIWjDOaKkp7E'
-global.comunidad1 = 'https://chat.whatsapp.com/EwrwcGvpLf1BnMhP3B4axD'
+global.gp1 = 'https://chat.whatsapp.com/FyzFuZG1ZGt57ERLbqMAjD'
+global.comunidad1 = 'https://chat.whatsapp.com/DMiShm0f7Fo9uZ9tMoWrmm'
 global.channel = 'https://whatsapp.com/channel/0029Vb8MqVzK5cDHC2ijGg0m'
 global.channel2 = 'https://whatsapp.com/channel/0029Vb7ZP3FICVfflZS9FZ1B'
-global.md = 'https://github.com/The-King-Destroy/Yuki_Suou-Bot'
+global.md = 'https://github.com/Eljhonwtf/jg.git'
 global.correo = 'hinatabot2025@gmail.com'
-global.cn ='https://whatsapp.com/channel/0029VapSIvR5EjxsD1B7hU3T';
+global.cn ='https://whatsapp.com/channel/0029Vb2rrTc6BIEhndsZNg09';
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
