@@ -148,7 +148,7 @@ if (typeof chat !== 'object')
 global.db.data.chats[m.chat] = {}
 if (chat) {
 if (!('antiemoji' in chat))
-chat.antiemoji = false 
+chat.antiemoji = " 
 if (!('isBanned' in chat))
 chat.isBanned = false
 if (!('sAutoresponder' in chat))
