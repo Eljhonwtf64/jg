@@ -119,3 +119,65 @@ handler.command = ['dev', 'owners'];
 handler.rowner = true;
 
 export default handler;
+
+
+import moment from 'moment-timezone';
+
+// Mapa para almacenar la actividad de cada usuario
+let userActivity = {};
+
+let handler = async (m, { conn, args }) => {
+    let owner = `
+    һ᥆ᥣᥲ! s᥆ᥡ  *${botname}*  ٩(˘◡˘)۶
+    ᥲ𝗊ᥙí 𝗍іᥱᥒᥱs ᥣᥲ ᥣіs𝗍ᥲ ძᥱ ᥴ᥆mᥲᥒძ᥆s ძᥱ mᥲs ᥡ ᥆ᥕᥒᥱrs
+    ...
+    `.trim();
+
+    await conn.sendMessage(m.chat, {
+        text: owner,
+        contextInfo: {
+            externalAdReply: {
+                title: packname,
+                body: dev,
+                thumbnailUrl: icono,
+                mediaType: 1,
+                showAdAttribution: true,
+                renderLargerThumbnail: true
+            }
+        }
+    }, { quoted: m });
+
+    // Escucha los mensajes entrantes y registra la actividad de los usuarios
+    conn.on('chat-update', async (msg) => {
+        if (!msg.hasNewMessage) return;
+        msg = msg.messages.all()[0];
+        if (!msg.message) return;
+
+        let sender = msg.key.remoteJid;
+        if (userActivity[sender]) {
+            userActivity[sender]++;
+        } else {
+            userActivity[sender] = 1;
+        }
+    });
+
+    // Comando para mostrar las personas más activas
+    conn.on('command', async (command) => {
+        if (command.name === 'topactivos') {
+            let topUsers = Object.entries(userActivity)
+                .sort((a, b) => b[1] - a[1])
+                .slice(0, 5)
+                .map(([user, count]) => `${user}: ${count} mensajes`)
+                .join('\n');
+
+            await conn.sendMessage(command.chatId, `Personas más activas:\n${topUsers}`);
+        }
+    });
+};
+
+handler.help = ['mods'];
+handler.tags = ['main'];
+handler.command = ['dev', 'owners'];
+handler.rowner = true;
+
+export default handler;
