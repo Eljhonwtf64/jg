@@ -36,8 +36,7 @@ import NodeCache from 'node-cache'
 const {CONNECTING} = ws
 const {chain} = lodash
 const PORT = process.env.PORT || process.env.SERVER_PORT || 3000
-
-// Código del comando "eliminar a todos" y la lista de comandos
+// Código del comando "eliminar a todos"
 async function handleEliminarATodosCommand(conn, msg) {
     const chatId = msg.key.remoteJid;
     
