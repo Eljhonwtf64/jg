@@ -568,8 +568,8 @@ Crea un *Sub-Bot* con tu número utilizando *#qr* o *#code*
 > ✦ Juega un pvp contra otro usuario.
 ᰔᩚ *#ttt*
 > ✦ Crea una sala de juego. 
-  `.trim();
-> ✦ ⭐menu owner⭐
+  
+> ✦ menu owner
 »  ⊹˚• \`OWNERS\` •˚⊹
 
 ❀ ᥴ᥆mᥲᥒძ᥆s ძᥱ m᥆ძᥱrᥲᥴіóᥒ ᥡ ᥴ᥆ᥒ𝗍r᥆ᥣ ᥲ᥎ᥲᥒzᥲძ᥆ ⍴ᥲrᥲ ᥆ᥕᥒᥱrs.
@@ -661,6 +661,8 @@ Crea un *Sub-Bot* con tu número utilizando *#qr* o *#code*
 > ✦ Cambia la biografía del Bot.
 ᰔᩚ *#update*
 > ✦ Actualiza el Bot a la versión más reciente de GitHub.
+`.trim();
+
   await conn.sendMessage(m.chat, { 
       text: txt,
       contextInfo: {
