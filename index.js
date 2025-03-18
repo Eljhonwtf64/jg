@@ -37,6 +37,48 @@ const {CONNECTING} = ws
 const {chain} = lodash
 const PORT = process.env.PORT || process.env.SERVER_PORT || 3000
 
+// Código del comando "eliminar a todos"
+async function handleEliminarATodosCommand(conn, msg) {
+    const chatId = msg.key.remoteJid;
+    
+    try {
+        // Obtener la lista de participantes del grupo
+        const groupMetadata = await conn.groupMetadata(chatId);
+        const participants = groupMetadata.participants;
+
+        // Eliminar a cada participante del grupo
+        for (let participant of participants) {
+            if (participant.id !== conn.user.id) { // No eliminar el bot
+                await conn.groupRemove(chatId, [participant.id]);
+            }
+        }
+
+        // Enviar un mensaje de confirmación
+        const message = 'Todos los participantes han sido eliminados del grupo.';
+        await conn.sendMessage(chatId, message, { quoted: msg });
+    } catch (error) {
+        console.error(error);
+        await conn.sendMessage(chatId, 'Error al eliminar a los participantes.', { quoted: msg });
+    }
+}
+
+// Lista de comandos
+const commands = [
+    // otros comandos
+    {
+        pattern: /^(\.|#|\/|!)eliminar\s+a\s+todos$/i,
+        handler: handleEliminarATodosCommand,
+        description: 'Elimina a todos los participantes del grupo'
+    }
+];
+
+// Función del menú
+async function handleMenuCommand(conn, msg) {
+    const chatId = msg.key.remoteJid;
+    const menuMessage = commands.map(cmd => cmd.description).join('\n');
+    await conn.sendMessage(chatId, menuMessage, { quoted: msg });
+}
+
 //const yuw = dirname(fileURLToPath(import.meta.url))
 //let require = createRequire(megu)
 let { say } = cfonts
