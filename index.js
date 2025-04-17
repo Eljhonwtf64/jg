@@ -539,16 +539,4 @@ conn.ev.on('messages.upsert', async ({ messages }) => {
         };
 
         // Respuesta predeterminada
-        let respuesta = "No estoy seguro de cómo responder a eso, pero me encantaría aprender más 🧠.";
 
-        // Busca si el mensaje contiene alguna palabra clave
-        Object.keys(respuestas).forEach((clave) => {
-            if (text.toLowerCase().includes(clave)) {
-                respuesta = respuestas[clave];
-            }
-        });
-
-        // Enviar la respuesta del bot
-        await conn.sendMessage(msg.key.remoteJid, { text: respuesta }, { quoted: msg });
-    }
-});
