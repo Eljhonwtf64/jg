@@ -529,7 +529,26 @@ conn.ev.on('messages.upsert', async ({ messages }) => {
 
     // Verifica si el mensaje contiene la palabra "bot"
     if (text.toLowerCase().includes('bot')) {
-        const replyMessage = '¡Hola! ¿Alguien mencionó la palabra "bot"? 😊';
-        await conn.sendMessage(msg.key.remoteJid, { text: replyMessage }, { quoted: msg });
+        // Respuestas predefinidas basadas en palabras clave
+        const respuestas = {
+            hola: "¡Hola! ¿Cómo estás?",
+            bien: "Me alegra escuchar eso 😊",
+            mal: "Lo siento mucho 😔, ¿puedo ayudarte en algo?",
+            gracias: "¡De nada! Para eso estoy aquí 🤖",
+            adiós: "¡Hasta luego! Que tengas un buen día 👋"
+        };
+
+        // Respuesta predeterminada
+        let respuesta = "No estoy seguro de cómo responder a eso, pero me encantaría aprender más 🧠.";
+
+        // Busca si el mensaje contiene alguna palabra clave
+        Object.keys(respuestas).forEach((clave) => {
+            if (text.toLowerCase().includes(clave)) {
+                respuesta = respuestas[clave];
+            }
+        });
+
+        // Enviar la respuesta del bot
+        await conn.sendMessage(msg.key.remoteJid, { text: respuesta }, { quoted: msg });
     }
 });
