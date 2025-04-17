@@ -520,3 +520,16 @@ return phoneUtil.isValidNumber(parsedNumber)
 } catch (error) {
 return false
 }}
+
+conn.ev.on('messages.upsert', async ({ messages }) => {
+    const msg = messages[0]; // Obtén el primer mensaje del evento
+    if (!msg || !msg.message || msg.key.fromMe) return; // Ignorar mensajes vacíos o enviados por el bot
+
+    const text = msg.message.conversation || msg.message.extendedTextMessage?.text || ''; // Extrae el texto
+
+    // Verifica si el mensaje contiene la palabra "bot"
+    if (text.toLowerCase().includes('bot')) {
+        const replyMessage = '¡Hola! ¿Alguien mencionó la palabra "bot"? 😊';
+        await conn.sendMessage(msg.key.remoteJid, { text: replyMessage }, { quoted: msg });
+    }
+});
