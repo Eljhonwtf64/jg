@@ -521,14 +521,25 @@ return phoneUtil.isValidNumber(parsedNumber)
 return false
 }}
 
-async function handleBotResponses() {
-    const respuestas = {
-        hola: "¡Hola! ¿Cómo estás?",
-        bien: "Me alegra escuchar eso 😊",
-        mal: "Lo siento mucho 😔, ¿puedo ayudarte en algo?",
-        gracias: "¡De nada! Para eso estoy aquí 🤖",
-        adiós: "¡Hasta luego! Que tengas un buen día 👋"
-    };
+conn.ev.on('messages.upsert', async ({ messages }) => {
+    const msg = messages[0]; // Obtén el primer mensaje del evento
+    if (!msg || !msg.message || msg.key.fromMe) return; // Ignorar mensajes vacíos o enviados por el bot
 
-    return respuestas; // Devuelve las respuestas
-} // Cierre de la función correctamente
+    const text = msg.message.conversation || msg.message.extendedTextMessage?.text || ''; // Extrae el texto
+
+    // Verifica si el mensaje contiene la palabra "bot"
+    if (text.toLowerCase().includes('bot')) {
+        // Respuestas predefinidas basadas en palabras clave
+        const respuestas = {
+            hola: "¡Hola! ¿Cómo estás?",
+            bien: "Me alegra escuchar eso 😊",
+            mal: "Lo siento mucho 😔, ¿puedo ayudarte en algo?",
+            gracias: "¡De nada! Para eso estoy aquí 🤖",
+            adiós: "¡Hasta luego! Que tengas un buen día 👋"
+        };
+
+        // Envía una respuesta basada en la palabra clave
+        const respuesta = respuestas[text.toLowerCase()] || "Lo siento, no entiendo eso.";
+        await conn.sendMessage(msg.key.remoteJid, { text: respuesta }, { quoted: msg });
+    }
+}); // Aquí se cierra correctamente
