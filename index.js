@@ -81,15 +81,15 @@ async function handleMenuCommand(conn, msg) {
 //let require = createRequire(megu)
 let { say } = cfonts
 
-console.log(chalk.bold.redBright(`\n✰ Iniciando Yuki-Suou-Bot ✰\n`))
+console.log(chalk.bold.redBright(`\n✰ Iniciando Hinat-bot\n`))
 
-say('YukiBot-MD', {
+say('Hinatabot-MD', {
 font: 'block',
 align: 'center',
 colors: ['magentaBright']
 })
 
-say(`Developed By • The-King-Destroy`, {
+say(`Developed By • The-Jhon-by-hinatabot`, {
 font: 'console',
 align: 'center',
 colors: ['blueBright']
