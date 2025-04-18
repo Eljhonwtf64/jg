@@ -1,4 +1,4 @@
-import moment from 'moment-timezone';
+delimport moment from 'moment-timezone';
 
 let handler = async (m, { conn, args }) => {
     let userId = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.sender;
@@ -10,19 +10,19 @@ let handler = async (m, { conn, args }) => {
     let totalCommands = Object.values(global.plugins).filter((v) => v.help && v.tags).length;
     
     let txt = `
-Hola! Soy  *${botname}*  ٩(˘◡˘)۶
-Aquí tienes la lista de comandos
-╭┈ ↷
-│ᰔᩚ Cliente » @${userId.split('@')[0]}
-│❀ Modo » Publico
-│✦ Bot » ${(conn.user.jid == global.conn.user.jid ? 'Principal 🅥' : 'Prem Bot 🅑')}
-│ⴵ Activada » ${uptime}
-│✰ Usuarios » ${totalreg}
-│✧ Comandos » ${totalCommands}
-│🜸 Baileys » Multi Device
-╰─────────────────
-Crea un *Sub-Bot* con tu número utilizando *#qr* o *#code*
+Hola! Soy  *${botname}*  (⁠｡⁠•̀⁠ᴗ⁠-⁠)⁠✧
+╭── • 🌸 • ── ✦ ── • 🌸 • ──╮
+│ 🍥 Cliente: @${userId.split('@')[0]}
+│ 🌟 Estado: ${uptime}
+│ 🏮 Modo: ${(conn.user.jid == global.conn.user.jid ?   'Principal 🅥' : 'Prem Bot 🅑')}
+│ 🐾 Usuarios: ${totalreg
+│ 🎐 Comandos: ${totalCommands}
+│ 🖤 Plataforma: Multi Device
+│ 😮‍💨 Creador: ༒★Jhon★༒
+╰───────────╯
 
+Crea un *Sub-Bot* con tu número utilizando *#qr* o *#code*
+ 
 🌸✨ 𝓗𝓲𝓷𝓪𝓽𝓪-𝓑𝓸𝓽 ✨🌸
 "¡Hola, *! Soy ★[ʜɪɴᴀᴛᴀ-ʙᴏᴛ]★*. ¡Aquí está mi lista de comandos! Espero que encuentres lo que necesitas. 🥹"
 
