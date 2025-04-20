@@ -662,8 +662,6 @@ Crea un *Sub-Bot* con tu número utilizando *#qr* o *#code*
 > ✦ Cambia la biografía del Bot.
 ᰔᩚ *#update*
 > ✦ Actualiza el Bot a la versión más reciente de GitHub.
-
-
 `.trim();
 
   await conn.sendMessage(m.chat, { 
