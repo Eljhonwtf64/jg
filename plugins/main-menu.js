@@ -17,8 +17,8 @@ Aquí tienes la lista de comandos
 │ᰔᩚ Cliente » @⁨Jhon⁩
 │❀ Modo » Publico
 │✦ Bot » Principal 🅥
-│ⴵ Activada » 0h 7m 13s
-│✰ Usuarios » 9
+│ⴵ Activada » 0h 5m 54s
+│✰ Usuarios » 64
 │✧ Comandos » 299
 │🜸 Baileys » Multi Device
 ╰─────────────────
@@ -662,6 +662,7 @@ Crea un *Sub-Bot* con tu número utilizando *#qr* o *#code*
 > ✦ Cambia la biografía del Bot.
 ᰔᩚ *#update*
 > ✦ Actualiza el Bot a la versión más reciente de GitHub.
+
 `.trim();
 
   await conn.sendMessage(m.chat, { 
